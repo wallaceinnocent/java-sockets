@@ -1,7 +1,7 @@
 FROM maven:3.5.4-eclipse-temurin-21-alpine AS build
 WORKDIR /Sockets
 COPY pom.xml .
-CPOY src ./src
+COPY src ./src
 RUN mvn clean package -DskipTests
 
 
