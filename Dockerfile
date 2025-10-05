@@ -1,4 +1,4 @@
-FROM maven:3.5.4-eclipse-temurin-21-alpine AS build
+FROM maven:3.9.6-eclipse-temurin-21-alpine AS build
 WORKDIR /Sockets
 COPY pom.xml .
 COPY src ./src
