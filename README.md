@@ -1,2 +1,2 @@
 # java-sockets
-Java bsckend
+Java backend
